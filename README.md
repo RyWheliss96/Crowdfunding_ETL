@@ -20,14 +20,45 @@ The below ERD Diagram was also created.<br />
 ![ERD](ERD.png)
 
 ## Tables
-Campaign Table <br />
-![campaign_table](Tables/campaign_table.png)
-Category Table <br />
-![category_table](Tables/category_table.png)
-Contacts Table <br />
-![contacts_table](Tables/contacts_table.png)
-SubCategory Table <br />
-![subcategory_table](Tables/subcategory_table.png)
+###Campaign Table <br />
+The DataFrame has the following columns:<br />
+- "cf_id" column
+- "contact_id" column
+- "company_name" column
+- "description" column
+- "goal" column that is a float data type
+- "pledged" column that is a float data type
+- "outcome" column
+- "backers_count" column
+- "country" column
+- "currency" column
+- "launch_date" with the time formatted as "YYYY-MM-DD"
+- "end_date" with the time formatted as "YYYY-MM-DD"
+- "category_id" column that contains the unique identification numbers matching those in the "category_id" column of the category DataFrame
+- "subcategory_id" column that contains the unique identification numbers matching those in the "subcategory_id" column of the subcategory DataFrame<br />
+
+![campaign_table](Tables/campaign_table.png)<br />
+
+###Category Table <br />
+The DataFrame contains a "category_id" column that has entries going sequentially from "cat1" to "catn", where n is the number of unique categories<br />
+The DataFrame has a "category" column that contains only the category titles <br />
+
+![category_table](Tables/category_table.png)<br />
+
+###Contacts Table <br />
+The DataFrame has the following columns:
+- "contact_id" column
+- "first_name" column
+- "last_name" column
+- "email" column<br />
+
+![contacts_table](Tables/contacts_table.png)<br />
+
+###SubCategory Table <br />
+The DataFrame contains a "subcategory_id" column that has entries going sequentially from "subcat1" to "subcatn", where n is the number of unique subcategories <br />
+The DataFrame contains a "subcategory" column that contains only the subcategory titles <br />
+
+![subcategory_table](Tables/subcategory_table.png)<br />
 
 
 ## Givens
