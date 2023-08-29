@@ -20,7 +20,7 @@ The below ERD Diagram was also created.<br />
 ![ERD](ERD.png)
 
 ## Tables
-###Campaign Table <br />
+### Campaign Table <br />
 The DataFrame has the following columns:<br />
 - "cf_id" column
 - "contact_id" column
@@ -39,13 +39,13 @@ The DataFrame has the following columns:<br />
 
 ![campaign_table](Tables/campaign_table.png)<br />
 
-###Category Table <br />
+### Category Table <br />
 The DataFrame contains a "category_id" column that has entries going sequentially from "cat1" to "catn", where n is the number of unique categories<br />
 The DataFrame has a "category" column that contains only the category titles <br />
 
 ![category_table](Tables/category_table.png)<br />
 
-###Contacts Table <br />
+### Contacts Table <br />
 The DataFrame has the following columns:
 - "contact_id" column
 - "first_name" column
@@ -54,7 +54,7 @@ The DataFrame has the following columns:
 
 ![contacts_table](Tables/contacts_table.png)<br />
 
-###SubCategory Table <br />
+### SubCategory Table <br />
 The DataFrame contains a "subcategory_id" column that has entries going sequentially from "subcat1" to "subcatn", where n is the number of unique subcategories <br />
 The DataFrame contains a "subcategory" column that contains only the subcategory titles <br />
 
